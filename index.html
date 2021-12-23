@@ -1,40 +1,46 @@
 <html>
-    <head>
-        <title>TaeBbong's Resume</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <link href=”https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap” rel=”stylesheet”>
-    </head>
-    <body>
-        <div class="tocdiv">
-            <p>목차</p>
-            <ol id="wrap-toc" class="toc"></ol>
-        </div>
-        <div class="wrap-content">
-            <div class="main">
-                <div class="right-img-row">
-                    <div class="textarea">
-                        <h2 class="title">안녕하세요, 개발자 TaeBbong 권태형입니다.</h2>
-                        <div class="paragraph">
-                            <p class="text">Tech : #flutter #iOS #Django #DRF</p>
-                            <p class="text">Link : <a href="https://github.com/TaeBbong">github.com/TaeBbong</a></p>
-                            <p class="text">Contact : mok05289@korea.ac.kr</p>
-                        </div>
-                    </div>
-                    <div class="imgarea">
-                        <img src="./imgs/profile.jpg">
-                    </div>
-                </div>
+  <head>
+    <title>TaeBbong's Resume</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+    href=”https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap”
+    rel=”stylesheet”>
+  </head>
+  <body>
+    <div class="tocdiv">
+      <ol id="wrap-toc" class="toc"></ol>
+    </div>
+    <div class="wrap-content">
+      <div class="main">
+        <div class="right-img-row">
+          <div class="textarea">
+            <h2 class="title">
+              안녕하세요 <br />개발자 TaeBbong<br />권태형입니다.
+            </h2>
+            <div class="paragraph">
+              <p class="text">Tech : #flutter #iOS #Django #DRF</p>
+              <p class="text">
+                Link :
+                <a href="https://github.com/TaeBbong">github.com/TaeBbong</a>
+              </p>
+              <p class="text">Contact : mok05289@korea.ac.kr</p>
             </div>
+          </div>
+          <div class="imgarea">
+            <img src="./imgs/profile.jpg" />
+          </div>
         </div>
-    </body>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="jquery.toc.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("#wrap-toc").toc({content: ".wrap-content", headings: "h2,h3,h4"});
-        });
-    </script>
+      </div>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="jquery.toc.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#wrap-toc").toc({ content: ".wrap-content", headings: "h2,h3,h4" });
+    });
+  </script>
 </html>

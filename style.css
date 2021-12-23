@@ -5,13 +5,14 @@
     font-family: ‘Noto Sans KR’, sans-serif;
 }
 
-ol.toc li{
-    font-size: 16px;
-    color: red;
+ol.toc {
+    list-style-type: none;
 }
 
 ol.toc a{
-    color: blue;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
 }
 
 body{
@@ -63,11 +64,11 @@ img {
 }
 
 .subtitle {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .text {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .hashtag {
@@ -85,15 +86,6 @@ img {
         margin: 0;
         padding: 5px;
         width: 100%;
-    }
-    .title {
-        font-size: 20px;
-    }
-    .subtitle {
-        font-size: 10px;
-    }
-    .text {
-        font-size: 9px;
     }
     .tocdiv {
         visibility: hidden;
