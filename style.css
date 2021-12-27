@@ -68,7 +68,7 @@ img {
 
 .right-img-row {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 75% 5% 20%;
 }
 
 .container {
