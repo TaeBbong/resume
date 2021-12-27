@@ -1,1 +1,35 @@
-"https://i.pinimg.com/originals/ac/ab/70/acab705206e8d00bb6fdbbafa6d256f8.png"
+[
+    {
+        "name": "기계식 키보드 매니아들을 위한 앱 서비스 개발",
+        "period": "2021.06 ~ 2021.12",
+        "tech": ["Flutter", "BloC", "Dart"],
+        "repo": "https://github.com/TaeBbong/keyboard-duckhoo_app",
+        "img": "https://i.pinimg.com/originals/f2/be/03/f2be03b2a624c43e0ea0216ef3558bcc.png",
+        "link": "https://play.google.com/store/apps/details?id=com.duckhoo.keyboard",
+        "desc": "기계식 키보드 매니아들을 위한 하이브리드 앱을 개발했습니다. 키보드 정보를 제공하고, 백엔드와 통신해서 동작하는 프로젝트입니다.",
+        "wil": "BloC 패턴을 적용하여 앱 전체를 총괄하여 개발할 수 있었습니다. BloC 패턴을 활용하며 상태를 관리하는 방법을 공부하였고, 대부분의 앱 개발 패턴에서 활용되는 상태 관리에 대해 고민할 수 있었습니다.",
+        "problem": "레이어별로 어느 범위의 역할을 수행해야 할지 정하는 과정이 어려웠습니다. 여러가지 시행착오 끝에 무엇을 해냈습니다."
+    },
+    {
+        "name": "기계식 키보드 매니아들을 위한 앱 서비스 개발",
+        "period": "2021.06 ~ 2021.12",
+        "tech": ["Flutter", "BloC", "Dart"],
+        "repo": "https://github.com/TaeBbong/keyboard-duckhoo_app",
+        "img": "https://i.pinimg.com/originals/ac/ab/70/acab705206e8d00bb6fdbbafa6d256f8.png",
+        "link": "https://play.google.com/store/apps/details?id=com.duckhoo.keyboard",
+        "desc": "기계식 키보드 매니아들을 위한 하이브리드 앱을 개발했습니다. 키보드 정보를 제공하고, 백엔드와 통신해서 동작하는 프로젝트입니다.",
+        "wil": "BloC 패턴을 적용하여 앱 전체를 총괄하여 개발할 수 있었습니다. BloC 패턴을 활용하며 상태를 관리하는 방법을 공부하였고, 대부분의 앱 개발 패턴에서 활용되는 상태 관리에 대해 고민할 수 있었습니다.",
+        "problem": "레이어별로 어느 범위의 역할을 수행해야 할지 정하는 과정이 어려웠습니다. 여러가지 시행착오 끝에 무엇을 해냈습니다."
+    },
+    {
+        "name": "기계식 키보드 매니아들을 위한 앱 서비스 개발",
+        "period": "2021.06 ~ 2021.12",
+        "tech": ["Flutter", "BloC", "Dart"],
+        "repo": "https://github.com/TaeBbong/keyboard-duckhoo_app",
+        "img": "https://i.pinimg.com/originals/f2/be/03/f2be03b2a624c43e0ea0216ef3558bcc.png",
+        "link": "https://play.google.com/store/apps/details?id=com.duckhoo.keyboard",
+        "desc": "기계식 키보드 매니아들을 위한 하이브리드 앱을 개발했습니다. 키보드 정보를 제공하고, 백엔드와 통신해서 동작하는 프로젝트입니다.",
+        "wil": "BloC 패턴을 적용하여 앱 전체를 총괄하여 개발할 수 있었습니다. BloC 패턴을 활용하며 상태를 관리하는 방법을 공부하였고, 대부분의 앱 개발 패턴에서 활용되는 상태 관리에 대해 고민할 수 있었습니다.",
+        "problem": "레이어별로 어느 범위의 역할을 수행해야 할지 정하는 과정이 어려웠습니다. 여러가지 시행착오 끝에 무엇을 해냈습니다."
+    }
+]
