@@ -102,6 +102,10 @@ img {
     top: 0;
 }
 
+.padding {
+    padding: 40px;
+}
+
 #project-template {
     display: none;
 }
