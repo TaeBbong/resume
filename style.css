@@ -102,6 +102,10 @@ img {
     top: 0;
 }
 
+#project-template {
+    display: none;
+}
+
    
 @media (max-width: 992px) {
     body {
