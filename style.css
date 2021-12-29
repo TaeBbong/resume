@@ -135,4 +135,10 @@ img {
     .text {
         font-size: 16px;
     }
+    .right-img-row {
+        display: list-item;
+    }
+    .img {
+        width: 50%;
+    }
 }

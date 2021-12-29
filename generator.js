@@ -9,7 +9,6 @@ $(document).ready(function () {
         .html("프로젝트 #" + data.id + "<br />" + data.name);
       $elem.find("#project-period").html("제작기간 : " + data.period);
       $elem.find("#project-tech").html("사용기술 : " + data.tech.join(", "));
-
       $elem
         .find("#project-repo")
         .html(
@@ -24,6 +23,16 @@ $(document).ready(function () {
       $elem
         .find("#project-problem")
         .html("<b>어려웠던 것</b> : " + data.problem);
+      $elem
+        .find("#project-more")
+        .html(
+          "<b>더 자세한 후기</b> : " +
+            "<a href=" +
+            data.more +
+            ">" +
+            data.more +
+            "</a>"
+        );
       $projects_div.append($elem);
     });
   });
